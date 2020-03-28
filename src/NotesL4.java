@@ -144,19 +144,6 @@ public class NotesL4 {
     //region Stacks Introduction
     /*
     - * see NotesL5.java
-    - Stacks are one of the most commonly used data structures in CS
-    - What is a Stack?
-        ~ LIFO : last in first out
-            = items are added to the top
-            = items are also accessed from the time
-            = only one item cna be accessed at a time; it is the only visible one
-    - Stack methods:
-        ~ empty() : returns if the stack is empty
-        ~ peek() : returns object at the top of the stack, does not remove it
-        ~ pop() : returns the object at the top of the stack, removes it
-            = attempting to pop an empty stack throws a EmptyStackException
-        ~ push(E obj) : pushes an item onto the stack and returns the item that was pushed
-    - * see stack application in L4CodeStack.java
-     */
+   */
     //endregion Stacks Introduction
 }

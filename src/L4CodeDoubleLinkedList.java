@@ -22,7 +22,7 @@ public class L4CodeDoubleLinkedList<E> extends AbstractSequentialList<E> {
 
     @Override
     public ListIterator<E> listIterator(int index) {
-        return null;
+        return new ListIter(index);
     }
 
     public E get(int index){
@@ -147,6 +147,7 @@ public class L4CodeDoubleLinkedList<E> extends AbstractSequentialList<E> {
         }
 
         public void add(E obj){
+            System.out.println("in add inner class");
             //inserting into an empty list
             if(head == null){
                 head = new Node<E>(obj);
