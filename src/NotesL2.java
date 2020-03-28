@@ -1,15 +1,19 @@
 /*
-File : Notes.java - notes for CS 113 Lewis Lecture 2
+File : NotesL2.java - notes for CS 113 Lewis Lecture 2
 Author : Lauren Ruff
 Date : 3.23.2020
+
+Covered Topics : Github, Parts of a Java Program, Big-O Notation (Asymptotic Complexity), ArrayLists
  */
-public class Notes {
+public class NotesL2 {
+
     /**Ways to solve a problem*/
         /*1. random : randomly guess until the correct answer is found. Will always work but takes incredibly long run times.
          *2. brute force : can calculate the maximum amount of runs it will take to find the correct answer. Code tends to be bulky and inefficient.
          *3. feedback : uses feedback from the program to be a "smart" program and come to the correct solution based on previous runs. quickest and mose efficient.
          */
-    /**GitHub */
+
+    //region Github
         /**Gradle*/
         /*
         - gradle is an open-source build automation tool
@@ -27,7 +31,9 @@ public class Notes {
         - integration tools include Travis, Gradle, and ant
             ~ every time a repository is pushed to GitHub a build is attempted using one of those integration tools
          */
-    /**Parts of a Java Program*/
+    //endregion Github
+
+    //region Parts of a Java Program
         /** Object Oriented Programming (OOP)*/
         /*
         - four main principles of OOP are Aggregation, Polymorphism, Inheritance, and Encapsulation
@@ -36,7 +42,7 @@ public class Notes {
 
         /**Abstract Classes*/
         /*
-        * see example in Code.java
+        * see example in Lecture2Code.java
         - provide partial implementation
         - cannot be instantiated
         - all subclasses must define abstract methods
@@ -51,7 +57,7 @@ public class Notes {
 
         /**Exceptions*/
         /*
-        * see example in Code.java
+        * see example in Lecture2Code.java
         - two categories of exceptions"
             ~ CHECKED : errors that were not created by errors made by the programmer
                 = use a try-catch block to throw one if there is a possibility that that code throws an exception
@@ -78,8 +84,9 @@ public class Notes {
                 = composition is shown with a filled black diamond
             ~ sequence diagram : outlines the sequence of a events/flow of information in a program between the user and between objects
          */
+    //endregion Parts of a Java Program
 
-    /**Big-O Notation (AKA Asymptotic Complexity)*/
+    //region Big-O Notation (Asymptotic Complexity)
     /*
     - What is Big-O notation?
         ~ describes the runtime efficiency (worst case scenario of runtime) and can describe the memory requirements of an algorithm
@@ -103,12 +110,15 @@ public class Notes {
         ~ Theta notation : the asymptotic tight bound
         ~ Big-omega notation : the asymptotic lower bound (inclusive)
      */
+    //endregion Big-O Notation (Asymptotic Complexity)
 
-    /**ArrayLists class*/
-    /*
-    * see example in Code.java
+    //region ArrayList Class
+    /* see example in Lecture2Code.java
     - implements the list interface
+        ~ need to import java.util.arraylist and java.util.list
     - useful because any element can be accessed quickly in any order, new elements can be added anywhere in the list, need an array that grows
-        ~ default capacity is 10
+        ~ default capacity = 10
+        ~ default size = 0
      */
+    //endregion ArrayList Class
 }

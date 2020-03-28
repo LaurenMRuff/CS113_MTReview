@@ -1,5 +1,5 @@
 /*
-File : Code.java - code for CS 113 Lewis Lecture 2 to supplement Notes.java
+File : Lecture2Code.java - code for CS 113 Lewis Lecture 2 to supplement NotesL2.java
 Author : Lauren Ruff
 Date : 3.23.2020
  */
@@ -10,9 +10,10 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-public class Code extends AbstractClass {
 
-    public static void main(String[] args) {
+public class L2Code extends Lecture2CodeSupplement {
+
+    public void arrayListExample(){
 
         //region ArrayList and methods example
         List<String> names = new ArrayList<>();
@@ -53,12 +54,6 @@ public class Code extends AbstractClass {
         System.out.println("MOOO");
     }
     //endregion using an abstract class
+
 }
 
-//example of an abstract class
-abstract class AbstractClass{
-    abstract void makeNoise();
-    public int returnNum(){
-        return 1;
-    }
-}
