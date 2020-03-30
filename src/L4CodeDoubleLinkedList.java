@@ -147,7 +147,6 @@ public class L4CodeDoubleLinkedList<E> extends AbstractSequentialList<E> {
         }
 
         public void add(E obj){
-            System.out.println("in add inner class");
             //inserting into an empty list
             if(head == null){
                 head = new Node<E>(obj);
